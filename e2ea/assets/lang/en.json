@@ -1,0 +1,165 @@
+{
+
+
+    "_____________________comment1________________________": "this is for Main SCreen",
+    "mainScreenTitleAppbar": "Main Screen",
+
+    "ConsumptionRate": "Consumption rate",
+    "HowSaleFromThisMed": "Number of pieces sold",
+    "newACCOUNT": "Create Account",
+    "DeleteAccount": "Delete Account",
+    "quantityInventory": "Quantity Inventory",
+    "finincalReports": "Finical Reports",
+    "EnteringCost": "Entering Cost",
+    "addOrupdateMed": "Add Or Edit Med",
+    "deleteProduct": "Delete Prodcut",
+    "EditingForAccessibility": "Editing For Accessibility",
+
+
+    "SearchByEmployee": "Search about Employee",
+    "SearchBy_TradMed": "Trad Medicien",
+    "SearchBy_ScientificMed": "Scientific Medicien",
+    "SearchBy..": "components ",
+    "SearchByCustomer": "Search By Customer",
+    "SearchBillBetween": "Search About Bill Between Tow Date",
+
+
+
+    "calcBox": "Today Calc Box",
+    "buyMed": "buy Med",
+    "saleMed": "sale",
+    "backBill": "back ",
+
+    "titleAlertDialoge": "What does this button do",
+    "ُExplainCalcBox": "This option allows calculating the total fund from the beginning of the day until the button is pressed",
+    "ExplainBuyMed": "This option is to enter the purchase invoice that includes all the products that will enter the pharmacy on this day",
+    "ExplainSaleMed": "Entering the sales invoice",
+    "ExpalinBackBill": "dont know ",
+
+
+
+    "_____________________comment2________________________": "this is for Category SCreen",
+    "titleAppBarCategoryMed": "Category Medcien",
+    "hintTextSearchField": "Search",
+    "QuantityAvailable": "Quantity Available",
+    "Price": "price",
+
+    "indecators": "indecators",
+    "notUses": "Cautions to be given to",
+    "warnings": "Warnings ",
+
+
+    "ifQuantityIsOver": "The quantity in the pharmacy has run out. If you are sure of your options, the specified quantity will be added and you will be reminded that the quantity is running out. Please click on the icon to add the drug, its quantity to the bill",
+    "َQuantityNotAvailalbe": "َQuantity Not Availalbe",
+    "NeedPrescription": "take care must need Prescription",
+    "contentPrescription": "If you want to know why. .... Long press",
+    "ifQuantityZero": "Because Quantity is Zero , Can not add this product",
+    "CloseButton": "close",
+    "OkayButton": "Okay",
+    
+    
+
+
+    "selectLang": "Select Your app Language",
+    "Lang_1": "arabic",
+    "Lang_2": "english",
+    "LogoutButton": "Logout",
+
+
+
+
+
+
+
+    "______________________comment3___________________________": "Register Page",
+    "titilePage": "Rejster New Employee",
+    "headPage": "Please fill in the field with employee data",
+    "filedName": "Employee name",
+    "fieledPhone": "Phone Number",
+    "sex": "Sex",
+    "sexMale": "Male",
+    "sexFemale": "Female",
+    "constantSalary": "Constant Salary",
+    "enterSalary": "Input Salary",
+    "cantEnter": "Can not Input",
+    "HoureSalary": "Salary By Working Hour",
+    "numberOfHours": "Working Hour",
+    "CostOfHour": "Cost of Work Hour ",
+    "emailFiled": "Email",
+    "passwordField": "Password",
+    "ToNextPage": "To Next Page",
+    "registerButton": "Register",
+
+
+    "____________comment4______________": "Sale Pag",
+    "titleAppbar": "Sale Mediciens",
+
+
+
+    "____________comment5______________": "Editing Page",
+    "titleAppbarEditiingPage": "Editing Or Added",
+
+
+    "______________________comment 6": " Costs Page",
+    "titleAppbarCostPage": "Entering Cost",
+    "typeOfCost": "type of cost",
+    "priceOfCost": "price",
+    "notes": "notes",
+
+    "presenTime": "present time",
+    "date": "Date",
+
+    "validator": "please you can't make any thing if not fill it",
+    "backToHome": "Back To Home Page",
+    "buttonBackToHome": "okay",
+
+    "inListCosts1": "Electric",
+    "inListCosts2": "water",
+    "inListCosts3": "expenses",
+    "inListCosts4": "Salary",
+    "inListCosts5": "taxes",
+    "_____comment 7________": "delete product",
+    "contentDeleteProduct": "Are You sure want delete this product ???? ",
+
+
+    "earn": "Earnings",
+    "lose": "Losses",
+    "totalbuy":" Total buy ",
+    "totalsell":"Total Sell ",
+
+    "titlebuymed": " Entring Buying Bill",
+    "medicinename": "Medicine name",
+    "quantity" : "Quantity",
+    "buyingprice": "Buying Price",
+    "sellingprice" : "Selling Price",
+    "place": "Place in Pharmacy",
+    "expiredate" : "Expire Date",
+    "minquantity": "Minimum Quantity",
+    "buydate" : "Buying Date",
+
+
+    "workingon":"Working On",
+    "plzwait":"Please Waite",
+
+    "delete":"Delete",
+
+    "daily":"Daily",
+    "yearly":"Yearly",
+    "monthly":"Monthly",
+
+    "sold":" Sold Quantity",
+    "left":"Left Quantity",
+    "bought":" Bought Quantity",
+
+    "editingaccebility":"Access Permissions ",
+    "newaccebility":"Employee Permissions : ",
+    "creataccount":"Creat Accounts",
+    "seereport":" Access Reports",
+    "deletaccount":"Delete Account",
+    "seerchaccount":"Search about Employee",
+
+    "nocustomer":"No Customer Added",
+    "Noproduct":"No Product added to basket"
+
+
+}

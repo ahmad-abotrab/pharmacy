@@ -1,0 +1,160 @@
+{
+
+
+    "mainScreenTitleAppbar": "الصفحة الرئيسية",
+
+    "ConsumptionRate": "معدل الاستهلاك",
+    "HowSaleFromThisMed": "عدد القطع المباعة",
+    "newACCOUNT": "إنشاء حساب جديد",
+    "DeleteAccount": "حذف حساب",
+    "quantityInventory": "الجرد",
+    "finincalReports": "التقارير المالية",
+    "EnteringCost": "إدخال التكاليف",
+    "addOrupdateMed": "إضافة أو تعديل دواء",
+    "deleteProduct": "حذف صنف دوائي",
+    "EditingForAccessibility": "تعديل على الصلاحيات موظف",
+    "titleAppbar": " بيع أدوية",
+
+    "SearchByEmployee": "البحث عن موظف",
+    "SearchBy_TradMed": "الاسم التجاري للدواء",
+    "SearchBy_ScientificMed": "الاسم العلمي للدواء",
+    "SearchBy..": "المركب الكميائي ",
+    "SearchByCustomer": "البحث عن مريض",
+    "SearchBillBetween ": "البحث عن فاتورة بين تاريخين",
+
+
+    "calcBox": "حساب الصندوق اليوم",
+    "buyMed": "شراء أدوية",
+    "saleMed": "بيع أدوية",
+    "backBill": "إرجاع فاتورة أو دواء ",
+
+    "titleAlertDialoge": "شرح عن  عمل الزر",
+    "ُExplainCalcBox": "هذا الخيار يسمح بحساب إجمالي الصندوق من بداية اليوم إلى حين الضغط على الزر",
+    "ExplainBuyMed": "هـذا الخيار للقيام بإدخال فاتورة الشراء المتضمنة جميع المستحضرات التي ستدخل للصيدلية في هذا اليوم ",
+    "ExplainSaleMed": "إدخال فاتورة المبيع",
+    "ExpalinBackBill": "ما بعرف ",
+
+
+    "titleAppBarCategoryMed": "تصنيفات الأدوية",
+    "QuantityAvailable": "الكمية المتوفرة",
+    "Price": "السعر",
+    "hintTextSearchField": "بحث",
+    "indecators": "الاستعمالات",
+    "notUses": "يحذر أن يعطى ل :",
+    "warnings": "تحذيرات ",
+
+
+    "مسكنات الآلم وخافضات الحرارة": "Pain killers and heat relievers",
+    "مضاد وزمة": "Anti - edema",
+    "مستحضرات  تجميل": "Cosmetics",
+    "أدوية الجهاز التنفسي": "Respiratory Medicines",
+
+    "َQuantityNotAvailalbe": "َالكمية غير متاحة",
+    "NeedPrescription": "دير بالك بدو وصفة طبية ، إذا معو كبيس أوك ",
+    "contentPrescription": "اذا بدك تعرف ليش. .... كبيس كبسة طويلة",
+    "ifQuantityIsOver": "لقد نفـذت الكمية الموجودة في الصيدلية ، إن كنت متأكد من خياراتك سوف يتم إضافة الكمية المحددة وسوف يتم تذكيرك بنفاذ الكمية الرجاء اضغط على الأيقونة ليتم إضافة الدواء ،كميته للفاتورة",
+    "ifQuantityZero": "لأن الكمية صفر , لا يمكن إضافة هذا المنتج",
+    "CloseButton": "إغلاق",
+    "OkayButton": "موافق",
+
+    "selectLang": "اختر لغة التطبيق",
+    "Lang_1": "عربي",
+    "Lang_2": "انكليزي",
+    "LogoutButton": "تسجيل الخروج",
+
+
+    "______________________comment3___________________________": "Register Page",
+    "titilePage": "تسجيل بيانات موظف جديد",
+    "headPage": "الرجاء املأ بيانات الموظف الجديد",
+    "filedName": "اسم الموظف",
+    "fieledPhone": "رقم الهاتف",
+    "sex": "الجنس",
+    "sexMale": "ذكر",
+    "sexFemale": "أنثى",
+    "constantSalary": "راتب ثابت",
+    "enterSalary": "أدخل الراتب",
+    "cantEnter": "لا تسطيع الإدخال",
+    "HoureSalary": "الراتب حسب ساعات العمل",
+    "numberOfHours": "عدد ساعات العمل",
+    "CostOfHour": "سعر الساعة",
+    "emailFiled": "البريد الالكتروني",
+    "passwordField": "كلمة المرور",
+    "ToNextPage": "للصفحة التالية",
+    "registerButton": "تسجيل الحساب",
+
+
+
+
+    "____________comment5______________": "Editing Page",
+    "titleAppbarEditiingPage": "تعديل أو إضافة ",
+
+
+    "______________________comment 6": " Costs Page",
+    "titleAppbarCostPage": "إدخال التكاليف",
+    "typeOfCost": "نوع التكلفة",
+    "priceOfCost": "التكلفة",
+    "notes": "ملاحظات",
+
+    "presenTime": "الوقت الحالي",
+    "date": "التاريخ",
+
+
+    "validator": "لا يمكنك إكمال المهمة إن لم تملئ جميع الحقول",
+    "backToHome": "العودة للصفحة الرئيسية",
+    "buttonBackToHome": "موافق",
+
+    "inListCosts1": "كهرباء",
+    "inListCosts2": "مياه",
+    "inListCosts3": "نفقات",
+    "inListCosts4": "رواتب الموظفين",
+    "inListCosts5": "ضرائب",
+
+    "earn": "الأرباح",
+    "lose": "الخسائر",
+    "totalbuy":" مجمل المبيعات",
+    "totalsell":"مجمل المشتريات",
+
+
+
+    "titlebuymed": " إدخال فاتورة شراء",
+    "medicinename": "اسم الدواء",
+    "quantity": "الكمية",
+    "buyingprice": "سعر الشراء",
+    "sellingprice" : "سعر المبيع",
+    "place": "مكان التوضع في الصيدلية",
+    "expiredate" : "تاريخ انتهاء الصلاحية",
+    "minquantity": "الكمية الدنيا اللازم توافرها",
+    "buydate" : "تاريخ الشراء",
+
+
+    "workingon":" يتم العمل على ",
+    "plzwait":" الرجاء الانتظار",
+
+
+
+    "nocustomer":" لا يوجد مريض  ",
+    "Noproduct":"  لا يوجد اي دواء في السلة  ",
+    "delete":"حذف",
+
+    "daily":"يومي",
+    "yearly":"سنوي",
+    "monthly":"شهري",
+
+    "sold":" الكمية المباعة ",
+    "left":" الكمية المتبقية",
+    "bought":"  الكمية المشتراة",
+
+    "editingaccebility":"الوصول للصلاحيات ",
+    "newaccebility":"  صلاحيات الموظف :",
+    "creataccount":" إنشاء حساب",
+    "seereport":" الوصول للتقارير المالية",
+    "deletaccount":" حذف حساب",
+    "seerchaccount":" البحث عن موظف",
+
+    "_____comment 7________": "حذف المنتج",
+    "contentDeleteProduct": "هل أنت متأد من أنك تريد حذف هذا الدواء"
+
+
+
+
+}
