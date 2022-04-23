@@ -7,10 +7,7 @@ import 'package:e2ea/newController/api_createPDf/pdf_api.dart';
 import 'package:e2ea/newModels/models/billmodel.dart';
 import 'package:e2ea/newModels/models/customermodel.dart';
 import 'package:e2ea/newModels/models/employemodel.dart';
-import 'package:flutter/material.dart' as dm;
-import 'package:flutter/widgets.dart' as dw;
 import 'package:intl/intl.dart';
-
 import 'package:pdf/pdf.dart';
 import 'package:pdf/widgets.dart';
 
@@ -87,7 +84,7 @@ class PdfBill {
     return PdfApi.saveDocument(name: bill.id + '.pdf', pdf: pdf);
   }
 
-  String formatTimestamp(Timestamp timestamp) {
+  formatTimestamp(Timestamp timestamp) {
     var format = new DateFormat('y-MM-d'); // 'hh:mm' for hour & min
     var gg = format.format(timestamp.toDate());
   }

@@ -1,6 +1,4 @@
 import 'package:e2ea/localization/localizations_demo.dart';
-
-
 import 'package:flutter/cupertino.dart';
 
 class Language {

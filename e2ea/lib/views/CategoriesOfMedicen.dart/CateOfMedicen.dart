@@ -1,13 +1,11 @@
 import 'package:e2ea/newModels/models/medicinmodel.dart';
+import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../../counter.dart';
-
 import '../../views/CategoriesOfMedicen.dart/components/AppBarCateMedicen.dart';
 import '../../views/CategoriesOfMedicen.dart/components/Body.dart';
 import '../../views/Register/Register.dart';
-
-import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 // ignore: must_be_immutable
 class CategoriesOfMedicen extends StatefulWidget {

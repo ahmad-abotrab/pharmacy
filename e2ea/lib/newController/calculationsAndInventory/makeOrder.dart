@@ -26,8 +26,6 @@ class addOrderBill {
     DocumentReference col_bill =
         await FirebaseFirestore.instance.collection('Order-bill').doc();
     var elem;
-    var q = 0;
-    var fetchmed;
     List fetchid = [];
     List fetchprice = [];
     List fetchquan = [];
@@ -42,7 +40,7 @@ class addOrderBill {
         'original_price': (bill.basket[i] as Medicine).getOriginalPrice()
       });
     }
-    QuerySnapshot fetch_emp = await FirebaseFirestore.instance
+    await FirebaseFirestore.instance
         .collection('Employee')
         .where('employee_name', isEqualTo: bill.getEmployee().getName())
         .get()
@@ -89,7 +87,7 @@ class addOrderBill {
 
           addNewPrpduct().addProdyct(y);
 
-          var med = await FirebaseFirestore.instance
+          await FirebaseFirestore.instance
               .collection('medicins')
               .where('medicin_name',
                   isEqualTo: (bill.basket[i] as Medicine).getName())

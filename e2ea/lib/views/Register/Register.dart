@@ -1,17 +1,14 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:e2ea/newController/calculationsAndInventory/addemployee.dart';
+import 'dart:ui' as ui;
+
 import 'package:e2ea/newModels/models/employemodel.dart';
 import 'package:e2ea/views/Register/completelyRegister.dart';
-import '../../localization/localizations_demo.dart';
-import '../../Utility/Utility.dart';
-import '../../Widgets/AppBarPhrmacy.dart';
-import '../../Widgets/TextFieldForm.dart';
-import '../../views/MainHome/MainScreen.dart';
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-import 'dart:ui' as ui;
+import '../../Utility/Utility.dart';
+import '../../Widgets/AppBarPhrmacy.dart';
+import '../../Widgets/TextFieldForm.dart';
+import '../../localization/localizations_demo.dart';
 
 class Register extends StatefulWidget {
   Register({Key key, this.userEmployee}) : super(key: key);

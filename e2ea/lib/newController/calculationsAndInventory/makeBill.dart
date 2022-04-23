@@ -46,7 +46,7 @@ class MakeBill {
     List fetchprice = [];
     List details_result = [];
     double sum = 0.0;
-    var fetch_emp = await FirebaseFirestore.instance
+    await FirebaseFirestore.instance
         .collection('Employee')
         .where('employee_name', isEqualTo: bill.getEmployee().getName())
         .get()

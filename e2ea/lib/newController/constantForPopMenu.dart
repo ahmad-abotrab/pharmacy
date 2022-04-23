@@ -1,9 +1,9 @@
 import 'dart:core';
 
-import '../../localization/localizations_demo.dart';
-
-import 'package:flutter/widgets.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+
+import '../../localization/localizations_demo.dart';
 
 class ConstantsMainPage {
   static const String detailsForBox = 'عرض تفاصيل الصندوق';

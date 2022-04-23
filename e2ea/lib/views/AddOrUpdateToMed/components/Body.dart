@@ -4,12 +4,9 @@ import 'package:e2ea/newController/search/SearchByBarcode.dart';
 import 'package:e2ea/newModels/models/employemodel.dart';
 import 'package:e2ea/newModels/models/medicinmodel.dart';
 import 'package:e2ea/views/MainHome/MainScreen.dart';
-
-import '../../../Widgets/AlertDialoge.dart';
+import 'package:flutter/material.dart';
 
 import '../../../Widgets/FieldAdding.dart';
-
-import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class BodyAddedPage extends StatelessWidget {

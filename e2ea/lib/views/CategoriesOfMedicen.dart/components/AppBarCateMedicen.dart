@@ -3,12 +3,10 @@
 import 'package:e2ea/newController/ScanCodeByCamera.dart';
 import 'package:e2ea/newController/search/SearchByBarcode.dart';
 import 'package:e2ea/newModels/models/medicinmodel.dart';
+import 'package:flutter/material.dart';
 
 import '../../../localization/localizations_demo.dart';
-
 import '../../../views/PageMedicins/PageMedicins.dart';
-
-import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
 class AppBarCateMedicen extends StatefulWidget implements PreferredSizeWidget {

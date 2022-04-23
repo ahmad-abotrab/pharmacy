@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-
 import 'package:e2ea/newModels/models/consumptionModel.dart';
 import 'package:e2ea/newModels/models/medicinmodel.dart';
 
@@ -10,10 +9,13 @@ class consumption_tendency {
   List medicins_max_final = [];
   List medicins_min_final = [];
 
-  Future<Object> calculateHowMuchSaleProduct(Medicine medicine,var date1,var date2) async {
-    int counter = 0;
-  
-    await FirebaseFirestore.instance.collection('bills').where('bill_date', isGreaterThanOrEqualTo: date1).where('bill_date',isLessThanOrEqualTo: date2).get().then((value) {
+  Future calculateHowMuchSaleProduct(Medicine medicine,var date1,var date2) async {  
+    await FirebaseFirestore.instance
+    .collection('bills')
+    .where('bill_date', isGreaterThanOrEqualTo: date1)
+    .where('bill_date',isLessThanOrEqualTo: date2)
+    .get().
+    then((value) {
      
 
     });

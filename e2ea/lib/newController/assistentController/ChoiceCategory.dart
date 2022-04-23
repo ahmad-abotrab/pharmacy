@@ -1,5 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:e2ea/newController/search/searchmidbyname.dart';
 import 'package:e2ea/newModels/models/medicinmodel.dart';
 
 class ChoiceCategory {

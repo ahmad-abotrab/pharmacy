@@ -232,7 +232,7 @@ class Reports {
   }
 
   ////////////////////////////////////////////////////////////////////////////////////
-  Future<List> makeYearReport(var year) async {
+  Future makeYearReport(var year) async {
     double tottalSell = 0.0;
     double tottalBuy = 0.0;
     double profits = 0.0;

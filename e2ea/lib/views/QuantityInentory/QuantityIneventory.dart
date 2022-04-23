@@ -1,8 +1,6 @@
-import 'dart:math';
 
 import 'package:e2ea/localization/localizations_demo.dart';
 import 'package:e2ea/newController/calculationsAndInventory/jard.dart';
-import 'package:e2ea/newController/calculationsAndInventory/report.dart';
 import 'package:flutter/material.dart';
 
 class QuantityInentory extends StatefulWidget {

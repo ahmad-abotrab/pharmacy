@@ -33,7 +33,7 @@ class ReturnMid {
         .then((value) {
       print(value.docs.length);
 
-      int sum;
+
       value.docs.forEach((element) async {
         billmed = List.from(await element.data()['medicin_id']);
         billquan = List.from(await element.data()['quantity_of_medicins']);

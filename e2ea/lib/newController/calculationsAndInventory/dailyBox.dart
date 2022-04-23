@@ -5,7 +5,7 @@ class DailyBoxCalc {
     List<double> e = [];
     double result = 0;
     if (dailyDate != '' && dailyDate != null) {
-      QuerySnapshot f = await FirebaseFirestore.instance
+        await FirebaseFirestore.instance
           .collection('bills')
           .where('bill_date', isGreaterThanOrEqualTo: dailyDate)
           .where('bill_date', isLessThanOrEqualTo: dailyDate2)

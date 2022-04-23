@@ -1,12 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
-enum authProblems { UserNotFound, PasswordNotValid, NetworkError }
-
 class AccountsOp {
   String errorMessage;
   User user;
-  authProblems errorType;
+  // authProblems errorType;
   Future<String> signIn(String email, String password) async {
     String errorMessage;
     User user;
@@ -22,17 +20,17 @@ class AccountsOp {
       switch (error.message) {
         case 'user-not-found':
           {
-            errorMessage = authProblems.UserNotFound.toString();
+            errorMessage = 'user-not-found';
             break;
           }
         case 'wrong-password':
           {
-            errorMessage = authProblems.PasswordNotValid.toString();
+            errorMessage = 'wrong-password';
             break;
           }
         case 'network-request-failed':
           {
-            errorMessage = authProblems.NetworkError.toString();
+            errorMessage = 'network-request-failed' ;
             break;
           }
         // ...
@@ -60,7 +58,7 @@ class AccountsOp {
         for (int j = 0; j <= subname[i].length + i; j++) {
           indexlist.add(subname[i].substring(0, j).toLowerCase());
         }
-        authProblems errorType;
+        // authProblems errorType;
 
         await FirebaseAuth.instance
             .createUserWithEmailAndPassword(email: email, password: password);
@@ -83,21 +81,21 @@ class AccountsOp {
       //print(error);
       switch (error.message) {
         case 'There is no user record corresponding to this identifier. The user may have been deleted.':
-          errorType = authProblems.UserNotFound;
+          // errorType = authProblems.UserNotFound;
           break;
         case 'The password is invalid or the user does not have a password.':
-          errorType = authProblems.PasswordNotValid;
+          // errorType = authProblems.PasswordNotValid;
           break;
         case 'A network error (such as timeout, interrupted connection or unreachable host) has occurred.':
-          errorType = authProblems.NetworkError;
+          // errorType = authProblems.NetworkError;
           break;
         default:
           print('Case ${error.message} is not yet implemented');
           return 'Case ${error.message} is not yet implemented';
       }
     }
-    print('The error is $errorType');
-    return 'The error is $errorType';
+    // print('The error is $errorType');
+    return 'The error is ';
 
     void logoutproc() {
       FirebaseAuth.instance.signOut();

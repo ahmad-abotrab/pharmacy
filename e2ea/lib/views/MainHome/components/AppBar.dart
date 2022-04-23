@@ -21,9 +21,6 @@ import 'package:e2ea/views/QuantityInentory/QuantityIneventory.dart';
 import 'package:e2ea/views/Register/Register.dart';
 import 'package:e2ea/views/finincalReports/FinincalReports.dart';
 import 'package:e2ea/views/pageMedicine3/pageMedicine4.dart';
-
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
 import '../../../counter.dart';

@@ -1,9 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:e2ea/newController/search/search.dart';
 import 'package:e2ea/newModels/models/billmodel.dart';
 import 'package:e2ea/newModels/models/customermodel.dart';
 import 'package:e2ea/newModels/models/employemodel.dart';
-import 'package:e2ea/newModels/models/medicinmodel.dart';
 
 class SearchBillByDateAndName {
 

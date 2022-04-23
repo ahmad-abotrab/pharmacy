@@ -1,7 +1,5 @@
-// ignore_for_file: deprecated_member_use, non_constant_identifier_names, unused_element
 
 import 'package:flutter/material.dart';
-import 'package:flutter/foundation.dart';
 
 class TextEdite extends StatefulWidget {
   TextEdite({

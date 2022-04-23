@@ -1,4 +1,4 @@
-import 'package:e2ea/Widgets/AppBarPhrmacy.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
@@ -14,13 +14,18 @@ class Loading extends StatefulWidget {
 class _LoadingState extends State<Loading> {
   @override
   Widget build(BuildContext context) {
-    final Color green = new Color.fromRGBO(239, 252, 234, 100);
     return Scaffold(
-      appBar: AppBarPharmacy(
-        title: "Pharmacy",
+      appBar: AppBar(
+        title: Text("Pharmacy"),
+                titleTextStyle:
+                    TextStyle(fontFamily: 'Forum-Regular', fontSize: 21),
+                titleSpacing: 25,
+                backgroundColor: Color(0xFF2bb673),
+   
+       
       ),
       body: Container(
-          color: green,
+          color: Color(0xFFf7f7f7),
           child: Center(
             child: SpinKitFadingCircle(
               color: Colors.indigo[600],

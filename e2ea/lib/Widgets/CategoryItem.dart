@@ -1,14 +1,11 @@
-import 'package:e2ea/newModels/models/medicinmodel.dart';
-
-import '../localization/localizations_demo.dart';
-
-import 'package:flutter/material.dart';
-
 import 'dart:ui' as ui;
 
+import 'package:e2ea/newModels/models/medicinmodel.dart';
+import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../counter.dart';
+import '../localization/localizations_demo.dart';
 
 // ignore: must_be_immutable
 class CategoryItem extends StatefulWidget {

@@ -11,8 +11,6 @@ import 'package:e2ea/newModels/models/billmodel.dart';
 import 'package:e2ea/newModels/models/customermodel.dart';
 import 'package:e2ea/newModels/models/employemodel.dart';
 import 'package:e2ea/newModels/models/medicinmodel.dart';
-import 'package:e2ea/newModels/models/medicinmodel.dart';
-import 'package:e2ea/newModels/models/medicinmodel.dart';
 import 'package:e2ea/views/AddCustomer/AddCustomer.dart';
 import 'package:e2ea/views/MainHome/MainScreen.dart';
 

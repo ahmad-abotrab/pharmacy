@@ -1,13 +1,10 @@
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e2ea/newController/search/SearchBillByNameAndDate.dart';
 import 'package:e2ea/newController/search/SearchMedById.dart';
 import 'package:e2ea/newModels/models/billmodel.dart';
 import 'package:e2ea/newModels/models/customermodel.dart';
-import 'package:e2ea/newModels/models/medicinmodel.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'dart:ui' as ui;
-
 import 'package:intl/intl.dart';
 
 class ShowBillOrMed extends StatefulWidget {

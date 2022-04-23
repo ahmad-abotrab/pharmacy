@@ -2,12 +2,11 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e2ea/newController/calculationsAndInventory/addCustomer.dart';
 import 'package:e2ea/newController/search/SearchCustomer.dart';
 import 'package:e2ea/newModels/models/customermodel.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_typeahead/flutter_typeahead.dart';
 
 import '../../Widgets/FieldAdding.dart';
 import '../../localization/localizations_demo.dart';
-
-import 'package:flutter/material.dart';
-import 'package:flutter_typeahead/flutter_typeahead.dart';
 
 // ignore: must_be_immutable
 class AddCustomer extends StatefulWidget {

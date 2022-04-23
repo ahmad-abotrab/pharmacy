@@ -9,7 +9,7 @@ import 'package:e2ea/newModels/models/billmodel.dart';
   Bill store=new Bill();
   @override
   Future<List<Object>> inven(var specificDay1,var specificDay2) async {
- var s = await FirebaseFirestore.instance
+  await FirebaseFirestore.instance
         .collection('bills')
         .where("bill_date", isGreaterThanOrEqualTo:specificDay1)
         .where('bill_date', isLessThanOrEqualTo: specificDay2)

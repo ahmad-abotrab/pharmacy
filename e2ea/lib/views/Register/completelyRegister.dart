@@ -1,3 +1,5 @@
+import 'dart:ui' as ui;
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e2ea/Utility/Utility.dart';
 import 'package:e2ea/localization/localizations_demo.dart';
@@ -5,7 +7,6 @@ import 'package:e2ea/newModels/models/employemodel.dart';
 import 'package:e2ea/views/MainHome/MainScreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'dart:ui' as ui;
 
 class CompletelyRegister extends StatefulWidget {
   CompletelyRegister({Key key, this.employee, this.userEmployee})

@@ -1,6 +1,4 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:e2ea/newModels/models/medicinmodel.dart';
 
 import 'customermodel.dart';
 import 'employemodel.dart';

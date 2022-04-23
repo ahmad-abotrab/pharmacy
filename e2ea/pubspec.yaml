@@ -3,7 +3,7 @@ description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -33,17 +33,17 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons:
-  intl: 
-  url_launcher: 
+  intl:
+  url_launcher:
   firebase_auth:
-  firebase_core: 
-  firebase_database: 
-  #material_floating_search_bar: ^0.2.6 
+  firebase_core:
+  firebase_database:
+  #material_floating_search_bar: ^0.2.6
   flutter_barcode_scanner:
   cloud_firestore:
   provider:
   transparent_image:
-  # flutter_form_builder: ^6.0.0-nullsafety.0 
+  # flutter_form_builder: ^6.0.0-nullsafety.0
   flutter_typeahead:
   country_icons:
   syncfusion_flutter_pdf:
@@ -54,10 +54,11 @@ dependencies:
   image_picker:
   firebase_storage:
   flutter_spinkit:
-  fluttertoast :
+  fluttertoast:
   motion_toast:
+  shared_preferences:
 
-  flutter_localizations: 
+  flutter_localizations:
     sdk: flutter
     version: ^0.0.0
 
@@ -70,7 +71,6 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
-
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
@@ -78,8 +78,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-   - assets/images/
-   - assets/lang/
+    - assets/images/
+    - assets/lang/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
@@ -95,7 +95,7 @@ flutter:
   fonts:
     - family: DancingScript
       fonts:
-        - asset: assets/fonts/Dancing_Script/static/DancingScript-Regular.ttf      
+        - asset: assets/fonts/Dancing_Script/static/DancingScript-Regular.ttf
         - asset: assets/fonts/Dancing_Script/static/DancingScript-Bold.ttf
         - asset: assets/fonts/Dancing_Script/static/DancingScript-Medium.ttf
         - asset: assets/fonts/Dancing_Script/static/DancingScript-SemiBold.ttf
@@ -103,5 +103,8 @@ flutter:
     - family: Amiri
       fonts:
         - asset: assets/fonts/Amiri/Amiri-Regular.ttf
+    - family: Forum
+      fonts:
+        - asset: assets/fonts/Forum/Forum-Regular.ttf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

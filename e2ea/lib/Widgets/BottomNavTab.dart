@@ -103,7 +103,7 @@ class _BottomNavBarState extends State<BottomNavBar>
           ),
           AnimatedSize(
             duration: Duration(milliseconds: durationAnimated),
-            vsync: this,
+           
             curve: Curves.easeInCubic,
             child: Text(
               widget.isSelected ? itemBottomNavBar.text : "",

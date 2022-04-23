@@ -1,12 +1,10 @@
 import 'package:e2ea/newModels/models/Language.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 
 import '../localization/localizations_demo.dart';
 import '../main.dart';
-
-import 'package:firebase_auth/firebase_auth.dart';
-
-import '../views/Login/LoginScreen.dart';
-import 'package:flutter/material.dart';
+import '../views/Login/login_screen.dart';
 
 // ignore: must_be_immutable
 class DrawerPharma extends StatefulWidget {

@@ -1,17 +1,11 @@
 // ignore_for_file: deprecated_member_use
 
-import 'package:e2ea/newController/ImagePicker.dart';
-
+import 'package:e2ea/Widgets/TextEdite.dart';
 import 'package:e2ea/newController/assistentController/ScanCodeByCamera.dart';
 import 'package:e2ea/newController/calculationsAndInventory/addMedicin.dart';
 import 'package:e2ea/newController/imagepicker2.dart';
 import 'package:e2ea/newModels/models/medicinmodel.dart';
-import 'package:e2ea/Widgets/TextEdite.dart';
-import 'package:transparent_image/transparent_image.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 
 class PageMedicins extends StatefulWidget {
   PageMedicins({Key key, this.product, this.callBackUrl}) : super(key: key);

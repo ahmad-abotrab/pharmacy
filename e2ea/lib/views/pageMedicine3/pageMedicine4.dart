@@ -5,10 +5,7 @@ import 'package:e2ea/newController/assistentController/ScanCodeByCamera.dart';
 import 'package:e2ea/newController/calculationsAndInventory/addMedicin.dart';
 import 'package:e2ea/newController/imagepicker2.dart';
 import 'package:e2ea/newModels/models/medicinmodel.dart';
-
 import 'package:flutter/material.dart';
-
-import 'package:fluttertoast/fluttertoast.dart';
 
 class Medicinescreen extends StatefulWidget {
   Medicinescreen({Key key, this.product, this.callBackUrl}) : super(key: key);

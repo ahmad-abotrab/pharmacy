@@ -1,10 +1,10 @@
 import 'package:e2ea/newController/search/SearchByBarcode.dart';
 import 'package:e2ea/newModels/models/employemodel.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 import '../../Widgets/SearchBy_flutterTypeHead.dart';
 import '../../localization/localizations_demo.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
 import 'components/Body.dart';
 
 // ignore: must_be_immutable

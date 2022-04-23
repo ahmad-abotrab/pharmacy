@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:e2ea/newModels/models/billmodel.dart';
 import 'package:e2ea/newModels/models/customermodel.dart';
 import 'package:e2ea/newModels/models/employemodel.dart';
 import 'package:e2ea/newModels/models/medicinmodel.dart';
@@ -9,12 +8,10 @@ import 'package:e2ea/views/AddOrUpdateToMed/AddOrUpdateToMed.dart';
 import 'package:e2ea/views/Register/Register.dart';
 import 'package:e2ea/views/ShowBillsOrMed/ShowBillsOrMed.dart';
 import 'package:e2ea/views/pageMedicine3/pageMedicine4.dart';
-
-import '../localization/localizations_demo.dart';
-
-
 import 'package:flutter/material.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
+
+import '../localization/localizations_demo.dart';
 
 // ignore: must_be_immutable
 class SearchByFlutterTypeHead extends StatefulWidget {

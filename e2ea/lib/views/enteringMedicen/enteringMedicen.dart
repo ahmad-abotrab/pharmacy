@@ -1,4 +1,5 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'dart:ui' as ui;
+
 import 'package:e2ea/Widgets/SearchBy_flutterTypeHead.dart';
 import 'package:e2ea/localization/localizations_demo.dart';
 import 'package:e2ea/newController/assistentController/ScanCodeByCamera.dart';
@@ -8,15 +9,12 @@ import 'package:e2ea/newController/search/searchmidbyname.dart';
 import 'package:e2ea/newModels/models/billmodel.dart';
 import 'package:e2ea/newModels/models/employemodel.dart';
 import 'package:e2ea/newModels/models/medicinmodel.dart';
-
-import '../../counter.dart';
-
-import '../../views/MainHome/MainScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'dart:ui' as ui;
-
 import 'package:provider/provider.dart';
+
+import '../../counter.dart';
+import '../../views/MainHome/MainScreen.dart';
 
 // ignore: must_be_immutable
 class EnteringMedicen extends StatefulWidget {

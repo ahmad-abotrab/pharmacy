@@ -1,20 +1,13 @@
-import 'package:e2ea/newController/search/SearchEmployeeByEmail.dart';
-import 'package:e2ea/views/Login/LoginScreen.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-
-import './localization/localizations_demo.dart';
-
-import './routes/customer_rout.dart';
-import './routes/route_names.dart';
-
-import 'package:flutter_localizations/flutter_localizations.dart';
-
-import './views/MainHome/MainScreen.dart';
-import './counter.dart';
+import 'package:e2ea/views/Login/login_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 
+import './counter.dart';
+import './localization/localizations_demo.dart';
+import './routes/customer_rout.dart';
+import './routes/route_names.dart';
 import 'newModels/models/employemodel.dart';
 
 void main() async {
@@ -25,8 +18,6 @@ void main() async {
     ChangeNotifierProvider(
       create: (_) => Counter(),
       child: MyApp(
-          //employee: null,
-          // auth: auth,
           ),
     ),
   );
@@ -69,7 +60,8 @@ class _MyAppState extends State<MyApp> {
         debugShowCheckedModeBanner: false,
         title: 'PharmacyApp',
         theme: ThemeData(
-          primarySwatch: Colors.green,
+          primarySwatch: Colors.grey,
+          primaryColor: Color(0xFF2bb673),
         ),
         locale: this.locale,
         localizationsDelegates: [
@@ -90,18 +82,6 @@ class _MyAppState extends State<MyApp> {
         supportedLocales: [Locale('en', 'US'), Locale('ar', 'SY')],
         onGenerateRoute: CustomerRoute.allRoutes,
         initialRoute: homeRoute,
-        home: LoginScreen()
-        // home: MainScreen(
-        //         employee: emp,
-        //       )
-        //(widget.auth == null)
-        // LoginScreen()
-        // : MainScreen(
-        //     employee: emp,
-        //   )
-        // home: MainScreen(employee: emp,)
-        // home:LoginScreen()
-        // home: AddMed(),
-        );
+        home: LoginScreen());
   }
 }
